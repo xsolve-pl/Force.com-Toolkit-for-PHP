@@ -1,3 +1,9 @@
 {
-    "name": "xsolve/Force.com-Toolkit-for-PHP"
+    "name": "xsolve/Force.com-Toolkit-for-PHP",
+    "description": "A wrapper for the Force.com Web Services SOAP API",
+    "autoload": {
+        "classmap": [
+           "soapclient"
+        ]
+    }
 }
